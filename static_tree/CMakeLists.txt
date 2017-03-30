@@ -1,0 +1,5 @@
+project(static_tree)
+
+
+
+

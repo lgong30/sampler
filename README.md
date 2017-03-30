@@ -1,1 +1,3 @@
-# sampler
+# Sampler
+
+This project is an extension of a sub-module of one of my research work, in which we have an array of elements, each of them has a weight (non-negative) associated with it, and we need sample one element out each time with probability proportional to the weights and then update the weight of sampled one. The motivation to make this sub-module standalone and more user-friendly is because we find that there are various applications that might require such functionality. However, there is no such package in STL of C++. You might argue that C++ 17 adds a function `sample` in its algorithm library, which should have the "same" functionality. 
